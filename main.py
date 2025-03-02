@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Page title
-st.header("UNIT CONVERTER USING PYTHON")
+st.header("UNIT CONVERTOR USING PYTHON")
 st.write("Easily convert between different units of length, weight, and temperature.")
 
 # Sidebar selection

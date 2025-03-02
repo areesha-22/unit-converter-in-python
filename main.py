@@ -17,7 +17,7 @@ if conversion_type == "length":
     with col1:
         from_unit = st.selectbox("From", ["Meter", "kilometer", "centimeter", "milimeter", "nanometer", "miles", "yards"])
     with col2:
-        to_unit = st.selectbox("To", ["Meter", "kilometer", "centimeter", "milimeter", "nanometer", "miles", "yards"])
+        to_unit = st.selectbox("To", ["Meter", "kilometer", "centimeter", "milimeter", "miles", "yards"])
 
 elif conversion_type == "weight":
     with col1:
@@ -89,3 +89,4 @@ if st.button("CONVERT"):
 # Display result if available
 if result is not None:
     st.markdown(f"**{value} {from_unit} = {result:.4f} {to_unit}**")
+st.write("created by AREESHA")
